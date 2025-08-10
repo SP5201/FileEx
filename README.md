@@ -1,33 +1,33 @@
-# 桌面管理器
+# ✨桌面管理器✨
+🚀这是一个使用 Delphi 开发的桌面应用程序，旨在提供一个现代化的桌面管理体验。
 
-这是一个使用 Delphi 开发的桌面应用程序，旨在提供一个现代化的桌面管理体验。
-
-## 主要功能
-
+##🛠️主要功能
 *   **电影信息管理**: 自动获取电影信息、海报等。
 *   **文件管理**: 提供便捷的文件和文件夹访问。
 *   **系统监控**: 显示网络速度等系统信息。
 *   **可定制界面**: 支持换肤功能，可以自定义界面样式。
 
-## 技术栈
 
-*   **开发语言**: Delphi (Object Pascal)
+##🚀系统要求
+- Windows 8/10/11 
+
+*   **开发语言**: Delphi xe2 (Object Pascal)
 *   **UI 框架**: XCGUI
 *   **数据格式**: JSON (SuperObject), XML (NativeXml)
 *   **数据库**: SQLite
 *   **多媒体处理**: FFmpeg
-
-## 如何运行
-
-1.  使用 Embarcadero RAD Studio (Delphi) 打开 `QMovie.dproj` 项目文件。
-2.  编译并运行项目。
-
-## 目录结构
-
+  
+##📂目录结构
 *   `功能/`: 包含应用程序的核心逻辑，如电影信息处理、文件操作等。
 *   `库/`: 包含项目所依赖的第三方库。
 *   `样式/`: 包含界面的样式和主题文件。
 *   `窗口/`: 包含应用程序的各个窗口界面。
 *   `资源/`: 包含图标、皮肤和其他资源文件。
 
-*   下载编译好的程序https://github.com/SP5201/FileEx/releases
+##📦如何运行
+1.  使用 Embarcadero RAD Studio (Delphi) 打开 `QMovie.dproj` 项目文件。
+2.  编译并运行项目。
+
+
+##从GitHub Releases下载最新版本
+   https://github.com/SP5201/FileEx/releases
