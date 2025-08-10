@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="换肤" dragBorder="false" layout.horizon="true" rect="20,20,442,347" shadowDepth="200" shadowRightAngle="true" shadowSize="10" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="22" windowType="modalWindow">
+	<layoutEleUI expandT="true" id="1" layout.height="fill" layout.horizon="false" layout.width="fill" showT="true">
+		<layoutEleUI expandT="false" layout.height="24" layout.width="fill" showT="true">
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="fill" layout.width=":1" showT="true">
+				<shapeText content="样式设计" expandT="true" font="@Resource:\微软雅黑12加粗" layout.width="auto" rect="126,19,138,20" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="false" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.width="32" showT="true">
+				<buttonUI buttonType="close" expandT="true" id="2" layout.height="20" layout.width="20" rect="5,6,20,20" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+		<shapeRect enableBorder="false" expandT="true" fill="true" layout.height="1" layout.margin="0,10,0,10" layout.width="fill" rect="23,37,100,100" showT="true" />
+		<layoutEleUI expandT="true" layout.height=":1" layout.width="fill" rect="0,0,406,216" showT="true">
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="26" layout.width="fill" rect="99,13,100,100" showT="true">
+				<shapeText content="主题颜色" expandT="true" layout.width="auto" rect="92,17,100,20" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.alignV="center" layout.height="60" layout.horizon="true" layout.space="20" layout.width="fill" rect="23,18,100,100" showT="true">
+				<elementUI expandT="true" layout.height="60" layout.width="60" name="主题颜色1背景" rect="54,35,100,100" showT="true">
+					<buttonUI buttonType="radio" expandT="true" groupID="1" name="主题颜色1" rect="20,36,20,20" showT="true" />
+				</elementUI>
+				<elementUI expandT="true" layout.height="60" layout.width="60" name="主题颜色2背景" rect="113,28,100,100" showT="true">
+					<buttonUI buttonType="radio" expandT="true" groupID="1" name="主题颜色2" rect="20,36,20,20" showT="true" />
+				</elementUI>
+			</layoutEleUI>
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="26" layout.width="fill" rect="-189,110,100,100" showT="true">
+				<shapeText content="高亮颜色" expandT="true" layout.width="auto" rect="92,17,100,20" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" id="3" layout.alignV="center" layout.height="30" layout.horizon="true" layout.space="12" layout.width="fill" rect="-165,121,100,100" showT="true">
+				<buttonUI buttonType="radio" expandT="true" layout.height="20" layout.width="20" rect="-177,15,60,25" showT="true" />
+				<buttonUI buttonType="radio"  expandT="true" layout.height="20" layout.width="20" rect="-173,15,60,25" showT="true" />
+				<buttonUI buttonType="radio" expandT="true" layout.height="20" layout.width="20" rect="-166,15,60,25" showT="true" />
+				<buttonUI buttonType="radio" expandT="true" layout.height="20" layout.width="20" rect="-166,15,60,25" showT="true" />
+				<buttonUI buttonType="radio" expandT="true" layout.height="20" layout.width="20" rect="-166,15,60,25" showT="true"  />
+				<buttonUI buttonType="radio"  expandT="true" layout.height="20" layout.width="20" rect="-166,15,60,25" showT="true"  />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.alignV="center" layout.height="26" layout.margin="0,10,0,0" layout.width="fill" rect="13,107,100,100" showT="true">
+				<shapeText content="视频列表设置" expandT="true" layout.width="auto" rect="92,17,100,20" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="26" layout.horizon="true" layout.space="10" layout.width="fill" rect="-82,103,100,100" showT="true">
+				<shapeText content="列表圆角" expandT="true" layout.width="auto" rect="92,17,100,20" showT="true" />
+				<sliderBarUI expandT="true" horizon="true" rect="151,16,110,20" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="26" layout.horizon="true" layout.space="10" layout.width="fill" rect="46,103,100,100" showT="true">
+				<shapeText content="横向间隔" expandT="true" layout.width="auto" rect="92,17,100,20" showT="true" />
+				<sliderBarUI expandT="true" horizon="true" rect="151,16,110,20" showT="true" />
+				<shapeText content="纵向间隔" expandT="true" layout.margin="10,0,0,0" layout.width="auto" rect="276,13,100,20" showT="true" />
+				<sliderBarUI expandT="true" horizon="true" rect="296,13,110,20" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

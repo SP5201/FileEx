@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-布局面板文件-->
+<head />
+<layoutPanel heightT="650" showT="true" widthT="900">
+	<layoutEleUI expandT="true" layout.height="fill" layout.horizon="false" layout.space="4" layout.width="fill" padding="20,0,10,0" rect="63,66,802,488" showT="true">
+		<shapeText content="常规设置" expandT="true" font="@Resource:\微软雅黑12常规" layout.width="auto" rect="45,30,100,20" showT="true" />
+		<layoutEleUI expandT="false" layout.height="30" layout.horizon="true" layout.space="20" layout.width="fill" rect="218,77,100,100" showT="true">
+			<buttonUI buttonType="check" content="开机启动" expandT="true" name="设置窗口_常规设置_开机启动" rect="91,21,100,25" showT="true" style="check" />
+			<buttonUI buttonType="check" content="最小化到托盘" expandT="true" name="设置窗口_常规设置_最小化到托盘" rect="163,15,120,25" showT="true" style="check" />
+		</layoutEleUI>
+		<shapeRect enableBorder="false" expandT="true" fill="true" layout.height="1" layout.margin="0,10,0,10" layout.width="fill" rect="123,307,100,100" showT="true" />
+		<shapeText content="播放器路径 (为空则使用系统默认播放器)" expandT="true" layout.margin="0 ,6,0,0" layout.width="auto" rect="106,290,100,20" showT="true" />
+		<layoutEleUI expandT="false" layout.alignV="center" layout.height="30" layout.horizon="true" layout.space="10" layout.width="fill" rect="207,41,100,100" showT="true">
+			<editUI expandT="true" layout.height="30" layout.width=":1" name="设置窗口_常规设置_播放器路径编辑框" rect="109,267,501,30" showT="true" />
+			<buttonUI content="路径选择" expandT="true" layout.height="fill" layout.width="80" name="设置窗口_常规设置_播放器路径选择按钮" rect="513,16,60,25" showT="true" />
+		</layoutEleUI>
+	</layoutEleUI>
+</layoutPanel>

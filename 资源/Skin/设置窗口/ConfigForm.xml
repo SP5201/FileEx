@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="炫彩界面库 - 我的窗口名" rect="20,20,789,524" shadowDepth="200" shadowRightAngle="true" shadowSize="10" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="22" windowType="modalWindow">
+	<layoutEleUI expandT="true" layout.height="fill" layout.horizon="false" layout.width="fill" rect="567,119,100,100" showT="true">
+		<layoutEleUI expandT="true" layout.alignV="center" layout.height="32" layout.width="fill" rect="178,55,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.width=":1" padding="5,0,0,0" rect="214,16,100,100" showT="true">
+				<shapeText content="设置" expandT="true" font="@Resource:\微软雅黑15" layout.width="auto" rect="27,14,122,20" showT="true" textColor="@Resource:\纯白色" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.width="100" rect="195,4,100,100" showT="true">
+				<buttonUI buttonType="close" expandT="true" name="设置窗口_关闭按钮" rect="30,18,20,20" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.alignH="left" layout.height=":1" layout.horizon="true" layout.width="fill" rect="91,220,100,100" showT="true">
+			<listUI expandT="true" layout.height="fill" layout.width="180" name="设置窗口_导航列表" rect="28,71,100,100" showT="true" />
+			<layoutEleUI expandT="true" layout.height="fill" layout.width=":1" name="设置窗口_内容布局" rect="364,157,100,100" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.alignH="right" layout.alignV="center" layout.height="40" layout.horizon="true" layout.space="20" layout.width="fill" padding="0,0,10,0" rect="127,293,100,100" showT="true">
+			<buttonUI content="确定" expandT="true" name="设置窗口_确认按钮" rect="598,27,80,30" showT="true" />
+			<buttonUI buttonType="close" content="取消" expandT="true" name="设置窗口_取消按钮" rect="307,19,80,30" showT="true" />
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

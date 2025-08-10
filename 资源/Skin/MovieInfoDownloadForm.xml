@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI bkInfoM="{99:1.9.9;98:1();}" center="true" content="下载影片信息" padding="10,0,10,0" rect="20,20,980,660" shadowDepth="200" shadowRightAngle="true" shadowSize="10" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="30" windowType="modalWindow">
+	<layoutEleUI expandT="true" layout.height="fill" layout.width="fill" name="下载信息窗口_总布局" rect="8,30,1203,762" showT="true">
+		<layoutEleUI expandT="false" layout.alignV="center" layout.height="36" layout.width="fill" rect="177,152,1137,150" showT="true">
+			<layoutEleUI expandT="true" layout.alignV="center" layout.height="fill" layout.width=":1" name="下载信息窗口_标题" rect="843,24,100,100" showT="true" />
+			<layoutEleUI expandT="true" layout.alignH="center" layout.alignV="center" layout.height="fill" layout.width="40" rect="523,24,100,100" showT="true">
+				<buttonUI buttonType="close" expandT="true" layout.height="20" layout.width="20" name="下载信息窗口_关闭按钮" rect="14,30,60,25" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.alignV="center" layout.height="40" layout.horizon="true" layout.space="20" layout.width="fill" rect="0,174,100,100" showT="true">
+			<shapeText content="服务器" expandT="true" layout.height="28" layout.margin="6,0,0,0" layout.width="auto" rect="71,8,100,20" showT="true" textColor="@ID_COLOR_4" />
+			<comboBoxUI bkInfoM="{99:1.9.9;98:16(0)32(1)64(2);5:2(15)20(1)21(3)26(1)22(1023410175)23(60);5:2(15)20(1)21(3)26(1)22(1358954495)23(80);5:2(15)20(1)21(3)26(1)22(1023410175)23(60);}" expandT="true" id="101" layout.height="30" layout.width="150" rect="166,15,159,28" showT="true" textColor="@ID_COLOR_2" transparent="true" />
+			<editUI border="10,0,30,0" edit.autoWrap="false" expandT="true" layout.height="30" layout.width="250" multiLine="false" name="下载信息窗口_搜索框" rect="37,18,247,30" showT="true">
+				<buttonUI expandT="true" id="1" layout.height="18" layout.width="18" lockScroll="3" rect="230,5,18,18" showT="true" />
+			</editUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.height=":1" layout.width="fill" rect="479,367,1117,742" showT="true">
+			<layoutEleUI expandT="false" layout.height="fill" layout.horizon="false" layout.width="300" rect="106,341,100,100" showT="true">
+				<listUI expandT="true" layout.height="fill" layout.width="fill" name="下载信息窗口_搜索列表" rect="195,215,297,583" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.height="fill" layout.width=":1" rect="563,163,100,100" showT="true">
+				<layoutEleUI expandT="true" layout.alignH="center" layout.height="fill" layout.horizon="false" layout.space="10" layout.spaceRow="10" layout.width="250" rect="99,249,100,100" showT="true">
+					<shapePicture expandT="true" layout.margin="0,20,0,0" rect="94,103,243,331" showT="true" />
+					<shapeText content="TextBlock" expandT="true" layout.width="auto" rect="97,367,113,20" showT="true" />
+				</layoutEleUI>
+				<layoutEleUI expandT="true" layout.height="fill" layout.spaceRow="10" layout.width=":1" rect="271,238,100,100" showT="true">
+					<elementUI expandT="true" font="@Resource:\微软雅黑15常规" layout.height="40" layout.width="fill" name="下载信息窗口_影片标题" rect="109,61,100,100" showT="true" />
+					<elementUI expandT="true" layout.height="30" layout.width="fill" name="下载信息窗口_影片类型" rect="199,40,100,100" showT="true" />
+					<elementUI expandT="true" layout.height="30" layout.width="fill" name="下载信息窗口_影片导演" rect="199,40,100,100" showT="true" />
+					<elementUI expandT="true" layout.height="30" layout.width="fill" name="下载信息窗口_影片演员" rect="199,40,100,100" showT="true" />
+					<elementUI expandT="true" layout.height="30" layout.width="fill" rect="199,40,374,143" showT="true" />
+					<editUI edit.autoWrap="true" edit.readOnly="true" expandT="true" layout.height=":1" layout.width="fill" multiLine="true" name="下载信息窗口_影片简介" rect="153,224,100,20" showT="true" />
+				</layoutEleUI>
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.height="40" layout.width="fill" rect="306,386,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.height="fill" layout.width=":1" rect="136,23,100,100" showT="true" />
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="fill" layout.space="20" layout.width="160" rect="208,26,293,40" showT="true">
+				<buttonUI content="取消" expandT="true" rect="73,16,60,25" showT="true" />
+				<buttonUI content="确定" expandT="true" rect="81,15,60,25" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

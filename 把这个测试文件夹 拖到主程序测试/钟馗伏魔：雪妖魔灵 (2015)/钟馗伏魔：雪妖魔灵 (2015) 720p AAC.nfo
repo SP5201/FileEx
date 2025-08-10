@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!--created on 2025-07-12 06:24:44 by tinyMediaManager 5.1.2 for KODI-->
+<movie>
+  <title>钟馗伏魔：雪妖魔灵</title>
+  <originaltitle>钟馗伏魔：雪妖魔灵</originaltitle>
+  <sorttitle/>
+  <epbookmark/>
+  <year>2015</year>
+  <ratings>
+    <rating default="false" max="10" name="themoviedb">
+      <value>5.2</value>
+      <votes>39</votes>
+    </rating>
+  </ratings>
+  <userrating>0</userrating>
+  <top250>0</top250>
+  <set/>
+  <plot>魔在魔界，神在天庭，人在人间。本是神鬼殊途，却为了那一线觊觎模糊三界的界限，引发连绵跌宕的搏杀。盛唐时节，某年的七月十五，恰逢千年不遇的升仙良日，西域重镇扈都之内鬼影幢幢，阴森可怖。当年的落拓书生钟馗（陈坤 饰）得到张道仙（赵文瑄 饰）的救助，从而成为扈都的守护者。他斩妖除魔，深入魔界获得魔灵，从而拉开了与魔界弘大的战争。在此过程中，钟馗意外重逢曾经令他魂牵梦绕的女孩——雪妖（李冰冰 饰）。身份截然对立的二人，却无法阻止爱意的滋生。神魔之战逐渐白热化，身陷乱局中央并以捍卫人间为己任的钟馗，最终发现了令他难以置信的阴谋……</plot>
+  <outline>魔在魔界，神在天庭，人在人间。本是神鬼殊途，却为了那一线觊觎模糊三界的界限，引发连绵跌宕的搏杀。盛唐时节，某年的七月十五，恰逢千年不遇的升仙良日，西域重镇扈都之内鬼影幢幢，阴森可怖。当年的落拓书生钟馗（陈坤 饰）得到张道仙（赵文瑄 饰）的救助，从而成为扈都的守护者。他斩妖除魔，深入魔界获得魔灵，从而拉开了与魔界弘大的战争。在此过程中，钟馗意外重逢曾经令他魂牵梦绕的女孩——雪妖（李冰冰 饰）。身份截然对立的二人，却无法阻止爱意的滋生。神魔之战逐渐白热化，身陷乱局中央并以捍卫人间为己任的钟馗，最终发现了令他难以置信的阴谋……</outline>
+  <tagline/>
+  <runtime>118</runtime>
+  <thumb aspect="poster">https://image.tmdb.org/t/p/original/1RE3lnHkdqGDXP9SkumJTE5dOX5.jpg</thumb>
+  <thumb aspect="clearlogo">https://image.tmdb.org/t/p/original/p5o55LEZjiWLkh5dtVUxMqtJpSz.png</thumb>
+  <fanart>
+    <thumb>https://image.tmdb.org/t/p/original/fjAmpuwwKpFxvDZ9nNGZFJaqz1F.jpg</thumb>
+  </fanart>
+  <mpaa/>
+  <certification/>
+  <id>tt3585004</id>
+  <tmdbid>299822</tmdbid>
+  <uniqueid default="false" type="tmdb">299822</uniqueid>
+  <uniqueid default="true" type="imdb">tt3585004</uniqueid>
+  <uniqueid default="false" type="wikidata">Q15917629</uniqueid>
+  <country>中国</country>
+  <country>中国香港特别行政区</country>
+  <status/>
+  <code/>
+  <premiered>2015-02-19</premiered>
+  <watched>false</watched>
+  <playcount>0</playcount>
+  <genre>动作</genre>
+  <genre>玄幻</genre>
+  <genre>爱情</genre>
+  <studio>Enlight Pictures</studio>
+  <studio>Village Roadshow Pictures Asia</studio>
+  <studio>Tencent Video</studio>
+  <studio>Wu's Entertainment Co.</studio>
+  <studio>Desen International Media</studio>
+  <studio>K Pictures Co.</studio>
+  <studio>Tianhua Xiuxing Media Co.</studio>
+  <studio>Wanda Pictures</studio>
+  <studio>Warner Bros. China</studio>
+  <credits tmdbid="965591">郭俊立</credits>
+  <credits tmdbid="4954761">Shen Shi-Qi</credits>
+  <director tmdbid="1633">鲍德熹</director>
+  <director tmdbid="131330">赵天宇</director>
+  <tag>elves</tag>
+  <tag>black magic</tag>
+  <tag>love</tag>
+  <tag>battle</tag>
+  <tag>evil plot</tag>
+  <actor>
+    <name>陈坤</name>
+    <role>Zhong Kui</role>
+    <thumb>https://image.tmdb.org/t/p/h632/xRLFS77TV3SIooUZ2NUUj9lDhs1.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/109809</profile>
+    <tmdbid>109809</tmdbid>
+  </actor>
+  <actor>
+    <name>李冰冰</name>
+    <role>Snow Demon</role>
+    <thumb>https://image.tmdb.org/t/p/h632/7LWUwPHK7nkB4ohESqFLSjsCPU1.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/109432</profile>
+    <tmdbid>109432</tmdbid>
+  </actor>
+  <actor>
+    <name>包贝尔</name>
+    <role>Du Ping</role>
+    <thumb>https://image.tmdb.org/t/p/h632/2wlt5nOKPT7W00NYioLCbjMzzUK.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1303558</profile>
+    <tmdbid>1303558</tmdbid>
+  </actor>
+  <actor>
+    <name>赵文瑄</name>
+    <role>Zhang Daoxian</role>
+    <thumb>https://image.tmdb.org/t/p/h632/c5LTdq5lsDzIxfu2a6a4jZQe3nK.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/57054</profile>
+    <tmdbid>57054</tmdbid>
+  </actor>
+  <actor>
+    <name>杨子姗</name>
+    <role>Zhong Ling</role>
+    <thumb>https://image.tmdb.org/t/p/h632/t0Y6sCDGF3r7D6YXiUvdEYxQwzX.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/586419</profile>
+    <tmdbid>586419</tmdbid>
+  </actor>
+  <actor>
+    <name>Huang Huan</name>
+    <role>Nine-Tailed Fox</role>
+    <profile>https://www.themoviedb.org/person/1616887</profile>
+    <tmdbid>1616887</tmdbid>
+  </actor>
+  <actor>
+    <name>骆文博</name>
+    <role>White Fox</role>
+    <thumb>https://image.tmdb.org/t/p/h632/pjUKcSpetVXt17bkgTfmdQpeUU0.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1614206</profile>
+    <tmdbid>1614206</tmdbid>
+  </actor>
+  <actor>
+    <name>侯伊荻</name>
+    <role>Red Fox</role>
+    <thumb>https://image.tmdb.org/t/p/h632/atADpD5tMLAHqqevQGqaRiKuHTt.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1616888</profile>
+    <tmdbid>1616888</tmdbid>
+  </actor>
+  <actor>
+    <name>鲍德熹</name>
+    <role>God of heaven</role>
+    <thumb>https://image.tmdb.org/t/p/h632/vdvsFeXGotoUVEFNWZf8w0q2XUC.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1633</profile>
+    <tmdbid>1633</tmdbid>
+  </actor>
+  <actor>
+    <name>王均康</name>
+    <role>Demon slayer head</role>
+    <thumb>https://image.tmdb.org/t/p/h632/cZjMJKdqSxlNY1lpIZXoHWzUeLO.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1509169</profile>
+    <tmdbid>1509169</tmdbid>
+  </actor>
+  <actor>
+    <name>胡大为</name>
+    <role>Examiner</role>
+    <thumb>https://image.tmdb.org/t/p/h632/coGYkBJEQoBgGn5KM61rZ7eMSrD.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/29693</profile>
+    <tmdbid>29693</tmdbid>
+  </actor>
+  <actor>
+    <name>谭伟民</name>
+    <role>Peasant</role>
+    <profile>https://www.themoviedb.org/person/1319281</profile>
+    <tmdbid>1319281</tmdbid>
+  </actor>
+  <actor>
+    <name>麦迪娜·买买提</name>
+    <role>Yellow Fox</role>
+    <thumb>https://image.tmdb.org/t/p/h632/kZBWUV1PHxL89kJmecXONN3xkAy.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1627621</profile>
+    <tmdbid>1627621</tmdbid>
+  </actor>
+  <actor>
+    <name>刘安琪</name>
+    <role>Demon Girl</role>
+    <thumb>https://image.tmdb.org/t/p/h632/pyrfxVi1JqFmnfITNqF1VTSZVrW.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1801833</profile>
+    <tmdbid>1801833</tmdbid>
+  </actor>
+  <actor>
+    <name>曲尼次仁</name>
+    <role>Demon Girl</role>
+    <thumb>https://image.tmdb.org/t/p/h632/4Ro1MApOCC8n0kCfhpSSnwiTMGl.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1686780</profile>
+    <tmdbid>1686780</tmdbid>
+  </actor>
+  <actor>
+    <name>刘占领</name>
+    <role>Fatty's Husband</role>
+    <thumb>https://image.tmdb.org/t/p/h632/wwX5DWwjL1KGzEh3EJFRV9pc764.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/3089463</profile>
+    <tmdbid>3089463</tmdbid>
+  </actor>
+  <actor>
+    <name>喜子</name>
+    <role>Merchant A</role>
+    <thumb>https://image.tmdb.org/t/p/h632/xdHLKKZiZ5t9vcOyDk0q07XXCfc.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/3496723</profile>
+    <tmdbid>3496723</tmdbid>
+  </actor>
+  <actor>
+    <name>吉克隽逸</name>
+    <role>Yi Wei</role>
+    <thumb>https://image.tmdb.org/t/p/h632/5k2Sjzlp8IfDlEouLVJhztInIyV.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/2917734</profile>
+    <tmdbid>2917734</tmdbid>
+  </actor>
+  <actor>
+    <name>尹聪</name>
+    <role>Demon Slayer</role>
+    <thumb>https://image.tmdb.org/t/p/h632/1jpDwEjjnDqUTcAblv1KJqEQ6dN.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/4533653</profile>
+    <tmdbid>4533653</tmdbid>
+  </actor>
+  <producer tmdbid="1296120">
+    <name>安晓芬</name>
+    <role>Executive Producer</role>
+    <thumb>https://image.tmdb.org/t/p/h632/fnfLqBgov0lueMBWzySYa4hZFkS.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1296120</profile>
+  </producer>
+  <producer tmdbid="1633">
+    <name>鲍德熹</name>
+    <role>Producer</role>
+    <thumb>https://image.tmdb.org/t/p/h632/vdvsFeXGotoUVEFNWZf8w0q2XUC.jpg</thumb>
+    <profile>https://www.themoviedb.org/person/1633</profile>
+  </producer>
+  <trailer>plugin://plugin.video.youtube/play/?video_id=ra3f7CNhj78</trailer>
+  <languages>中文</languages>
+  <dateadded>2025-07-12 06:22:00</dateadded>
+  <fileinfo>
+    <streamdetails>
+      <video>
+        <codec>h264</codec>
+        <aspect>1.56</aspect>
+        <width>1136</width>
+        <height>720</height>
+        <durationinseconds>29</durationinseconds>
+        <stereomode/>
+      </video>
+      <audio>
+        <codec>AAC</codec>
+        <language/>
+        <channels>2</channels>
+      </audio>
+    </streamdetails>
+  </fileinfo>
+  <!--tinyMediaManager meta data-->
+  <source>UNKNOWN</source>
+  <edition>NONE</edition>
+  <original_filename>钟馗.mp4</original_filename>
+  <user_note/>
+</movie>

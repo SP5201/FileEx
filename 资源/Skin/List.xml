@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-列表元素项模板文件-->
+<head />
+<xc_template_list showT="true">
+	<listHeader_item expandT="true" heightT="30" showT="true" widthT="300">
+		<layoutEleUI drawBorder="false" enableCanvas="false" expandT="true" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="2" layout.width=":1" mouseThrough="true" showT="true">
+			<shapeText content="{binding field=name1}" expandT="false" itemID="1" layout.height="fill" layout.width="fill" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI drawBorder="false" enableCanvas="false" expandT="true" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="2" layout.width="100" mouseThrough="true" showT="true">
+			<shapeText content="{binding field=name2}" expandT="false" itemID="2" layout.height="fill" layout.width="fill" showT="true" />
+		</layoutEleUI>
+	</listHeader_item>
+	<list_Item expandT="true" heightT="30" showT="true" widthT="300">
+		<layoutEleUI drawBorder="false" enableCanvas="false" expandT="true" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="2" layout.width=":1" mouseThrough="true" showT="true">
+			<shapeText content="{binding field=name1}" expandT="false" itemID="1" layout.height="fill" layout.width="fill" padding="10,0,0,0" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI drawBorder="false" enableCanvas="false" expandT="true" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="2" layout.width="100" mouseThrough="true" showT="true">
+			<shapeText content="{binding field=name2}" expandT="false" itemID="2" layout.height="fill" layout.width="fill" showT="true" />
+		</layoutEleUI>
+	</list_Item>
+</xc_template_list>

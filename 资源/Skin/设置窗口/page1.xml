@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-布局面板文件-->
+<head />
+<layoutPanel heightT="650" showT="true" widthT="900">
+	<layoutEleUI expandT="true" layout.height="fill" layout.horizon="false" layout.space="4" layout.width="fill" padding="20,0,10,0" rect="63,66,802,488" showT="true">
+		<shapeText content="扫描设置" expandT="true" font="@Resource:\微软雅黑12常规" layout.width="auto" rect="93,119,100,20" showT="true" />
+		<layoutEleUI expandT="true" layout.alignV="center" layout.height="30" layout.horizon="true" layout.margin="0,10,0,0" layout.width="fill" rect="207,41,100,100" showT="true">
+			<shapeText content="扫描指定扩展名文件" expandT="true" layout.height="30" layout.width="130" rect="32,8,100,20" showT="true" />
+			<editUI expandT="true" layout.height="30" layout.width=":1" name="设置窗口_常规设置_扫描格式编辑框" rect="78,157,501,30" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.alignV="center" layout.height="30" layout.horizon="true" layout.margin="0,10,0,0" layout.width="fill" rect="207,41,100,100" showT="true">
+			<shapeText content="不扫描这些路径" expandT="true" layout.margin="0 ,6,0,0" layout.width="130" rect="93,119,100,20" showT="true" />
+			<editUI expandT="true" layout.height="30" layout.width=":1" name="设置窗口_常规设置_排除文件编辑框" rect="78,157,501,30" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI expandT="false" layout.alignV="center" layout.height="30" layout.horizon="true" layout.margin="0,10,0,0" layout.width="fill" rect="207,41,100,100" showT="true">
+			<shapeText content="当文件小于" expandT="true" layout.height="30" layout.width="auto" rect="32,8,100,20" showT="true" />
+			<editUI expandT="true" layout.height="30" layout.width="100" name="设置窗口_常规设置_排除大小编辑框" rect="16,13,100,20" showT="true" />
+			<shapeText content="MB,跳过扫描(1-9999MB)" expandT="true" layout.height="30" layout.width="auto" rect="32,8,100,20" showT="true" />
+		</layoutEleUI>
+	</layoutEleUI>
+</layoutPanel>

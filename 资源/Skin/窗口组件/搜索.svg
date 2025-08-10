@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60 (88103) - https://sketch.com -->
+    <title>16x16/搜索_16</title>
+    <desc>Created with Sketch.</desc>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon" transform="translate(-436.000000, -20.000000)">
+            <g id="16x16/" transform="translate(20.000000, 20.000000)">
+                <g id="Top-bar" transform="translate(256.000000, 0.000000)">
+                    <g id="16x16/搜索" transform="translate(160.000000, 0.000000)">
+                        <g id="16x16/搜索_16">
+                            <path d="M8,1 C11.8659932,1 15,4.13400675 15,8 C15,9.75307345 14.3555667,11.3556314 13.2906721,12.583702 L14.8535534,14.1464466 C15.0488155,14.3417088 15.0488155,14.6582912 14.8535534,14.8535534 C14.679987,15.0271197 14.4105626,15.0464049 14.2156945,14.9114088 L14.1464466,14.8535534 L12.583702,13.2906721 C11.3556314,14.3555667 9.75307345,15 8,15 C4.13400675,15 1,11.8659932 1,8 C1,4.13400675 4.13400675,1 8,1 Z M8,2 C4.6862915,2 2,4.6862915 2,8 C2,11.3137085 4.6862915,14 8,14 C11.3137085,14 14,11.3137085 14,8 C14,4.6862915 11.3137085,2 8,2 Z" id="形状" fill="#000000" fill-rule="nonzero"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

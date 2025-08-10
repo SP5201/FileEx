@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-列表视元素项模板文件-->
+<head />
+<xc_template_listView showT="true">
+	<listView_Group expandT="true" showT="true">
+		<layoutEleUI drawBorder="false" enableCanvas="false" expandT="true" heightT="30" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" widthT="300">
+			<buttonUI buttonType="check" content="展开-收缩" expandButton="true" expandT="true" itemID="0" rect="0,0,80,20" showT="true" />
+			<shapeText content="{binding field=name1}" expandT="true" itemID="0" layout.height="fill" layout.width="auto" showT="true" />
+		</layoutEleUI>
+	</listView_Group>
+	<listView_item expandT="true" showT="true">
+		<layoutEleUI drawBorder="false" drawFocus="false" enableCanvas="false" expandT="true" heightT="100" layout.alignH="center" layout.alignV="top" layout.height="fill" layout.horizon="false" layout.space="2" layout.width="fill" mouseThrough="true" showT="true" widthT="100">
+			<shapePicture expandT="true" image="{binding field=name2}" itemID="1" layout.height=":1" layout.width=":1" rect="0,0,70,65" showT="true" />
+			<shapeText content="{binding field=name3}" expandT="true" font="@Resource:\微软雅黑12加粗" itemID="0" layout.height="24" layout.width="fill" showT="true" />
+		</layoutEleUI>
+	</listView_item>
+</xc_template_listView>

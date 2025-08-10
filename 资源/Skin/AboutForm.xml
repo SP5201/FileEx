@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content="炫彩界面库 - 我的窗口名" dragBorder="false" layout.horizon="true" rect="20,20,732,549" shadowDepth="200" shadowRightAngle="true" shadowSize="10" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="22" windowType="modalWindow">
+	<layoutEleUI expandT="true" layout.height="fill" layout.horizon="false" layout.width="fill" rect="427,70,100,100" showT="true">
+		<layoutEleUI expandT="false" layout.height="32" layout.width="fill" rect="370,92,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.height="fill" layout.width=":1" rect="12,16,100,100" showT="true" />
+			<layoutEleUI expandT="false" layout.alignH="right" layout.alignV="top" layout.height="fill" layout.width="32" rect="234,16,100,100" showT="true">
+				<buttonUI buttonType="close" expandT="true" id="2" layout.height="20" layout.width="20" rect="19,18,60,25" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.height=":1" layout.horizon="true" layout.width="fill" rect="193,212,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.alignH="center" layout.height="fill" layout.width="140" rect="156,138,100,100" showT="true">
+				<shapePicture expandT="true" name="关于窗口_图标" rect="46,26,100,100" showT="true" />
+				<shapeText content="1.0.0.1" expandT="true" layout.width="auto" name="关闭窗口__版本号" rect="43,19,98,20" showT="true" textColor="@Resource:\纯白色" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.height="fill" layout.width=":1" rect="312,299,100,100" showT="true">
+				<editUI drawBorder="false" drawFocus="false" edit.autoWrap="true" edit.readOnly="true" edit.type="richedit" enableCanvas="true" expandT="true" layout.height="80" layout.width="fill" multiLine="true" name="关于窗口_编辑框1" rect="187,182,100,20" scrollBarAuto="false" scrollBarShowH="false" scrollBarShowV="false" showT="true" transparent="true" />
+				<editUI drawBorder="false" drawFocus="false" edit.autoWrap="true" edit.readOnly="true" enableCanvas="true" expandT="true" layout.height=":1" layout.width="fill" multiLine="true" name="关于窗口_编辑框2" rect="156,136,100,20" scrollBarAuto="false" scrollBarShowH="false" scrollBarShowV="false" showT="true" transparent="true" />
+				<editUI drawBorder="false" drawFocus="false" edit.autoWrap="true" edit.readOnly="true" edit.type="richedit" enableCanvas="true" expandT="true" layout.height="140" layout.width="fill" multiLine="true" name="关于窗口_编辑框3" rect="-304,190,100,20" scrollBarAuto="false" scrollBarShowH="false" scrollBarShowV="false" showT="true" transparent="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.alignH="right" layout.alignV="center" layout.height="32" layout.width="fill" rect="270,22,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.width=":1" padding="10,0,0,0" rect="46,7,100,100" showT="true" />
+			<buttonUI buttonType="close" content="确认" expandT="true" layout.height="28" layout.width="70" name="关于窗口_确认按钮" rect="289,23,60,25" showT="true" />
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

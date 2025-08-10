@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI center="true" content=" 影片管理器" minSize="600,400" rect="20,20,1199,793" shadowDepth="50" shadowSize="10" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="24">
+	<layoutEleUI expandT="true" layout.height="fill" layout.width="fill" name="主窗口" rect="451,210,100,100" showT="true">
+		<layoutEleUI border="1,1,1,1" expandT="true" layout.height=":1" layout.horizon="true" layout.width="fill" name="主窗口_总布局" rect="919,317,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.height=":1" layout.horizon="false" layout.width="320" name="主窗口_左侧布局" padding="2,0,0,0" rect="311,247,100,100" showT="true">
+				<layoutEleUI expandT="true" layout.height=":1" layout.width="fill" rect="175,347,100,100" showT="true">
+					<elementUI drawFocus="false" expandT="false" layout.height="172" layout.width="fill" mouseThrough="true" name="左侧展示_上方占位" rect="102,226,100,100" showT="true" transparent="true">
+						<buttonUI buttonType="check" check="false" expandT="true" layout.height="18" layout.width="18" name="左侧展示_静音按钮" rect="293,6,20,20" showT="true" />
+						<buttonUI buttonType="check" check="false" expandT="true" layout.height="18" layout.width="18" name="左侧展示_ 预览按钮" rect="293,32,20,20" showT="true" />
+					</elementUI>
+					<elementUI enableCanvas="true" expandT="false" layout.height="26" layout.width="fill" name="左侧展示_标题" rect="116,203,100,100" showT="true" />
+					<editUI drawBorder="false" drawFocus="false" edit.autoWrap="true" edit.type="richedit" enableCanvas="true" expandT="false" layout.height=":1" layout.margin="0,6,0,0" layout.width="fill" multiLine="true" name="左侧展示_分类盒" rect="0,148,100,100" scrollBarShowH="false" showT="true" transparent="true" />
+				</layoutEleUI>
+				<layoutEleUI expandT="true" layout.alignH="center" layout.alignV="center" layout.height="50" layout.width="fill" rect="145,422,100,100" showT="true">
+					<buttonUI content="播放" expandT="true" name="左侧展示_播放按钮" rect="200,19,86,32" show="false" showT="true" />
+				</layoutEleUI>
+			</layoutEleUI>
+			<layoutEleUI expandT="false" layout.height="fill" layout.horizon="false" layout.width=":1" rect="771,245,100,100" showT="true">
+				<layoutEleUI drawFocus="false" expandT="false" layout.height="60" layout.width="fill" name="主窗口_标题栏布局" rect="0,0,0,0" showT="true">
+					<layoutEleUI expandT="false" id="0" layout.alignBaseline="center" layout.alignH="left" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="4" layout.width=":1" padding="10,0,0,0" rect="0,0,0,100" showT="true">
+						<buttonUI expandT="true" id="8" layout.height="20" layout.width="20" name="返回主视频按钮" rect="108,38,0,0" show="false" showT="true" />
+						<editUI border="10,0,30,0" edit.autoWrap="false" expandT="true" layout.height="30" layout.width="260" multiLine="false" name="搜索框" rect="244,42,247,30" showT="true">
+							<buttonUI expandT="true" id="1" layout.float="true" layout.height="18" layout.width="18" lockScroll="3" name="搜索按钮" rect="234,5,18,18" showT="true" />
+						</editUI>
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignH="right" layout.alignV="center" layout.height="fill" layout.horizon="true" layout.space="10" layout.width="250" padding="0,0,14,0" rect="0,0,0,0" showT="true">
+						<buttonUI expandT="true" id="8" layout.height="24" layout.width="24" rect="20,20,0,0" show="false" showT="true" />
+						<buttonUI expandT="true" id="7" layout.height="24" layout.width="24" name="重载按钮" rect="0,0,0,0" showT="true" />
+						<buttonUI expandT="true" id="9" layout.height="24" layout.width="24" name="换肤按钮" rect="80,80,0,0" showT="true" />
+						<buttonUI expandT="true" id="1" layout.height="24" layout.width="24" name="菜单按钮" rect="20,20,0,0" showT="true" />
+						<buttonUI buttonType="min" expandT="true" id="2" layout.height="24" layout.width="24" name="最小化按钮" rect="20,20,0,0" showT="true" />
+						<buttonUI buttonType="max" expandT="true" id="3" layout.height="24" layout.width="24" name="最大化按钮" rect="40,40,0,0" showT="true" />
+						<buttonUI buttonType="close" expandT="true" id="4" layout.height="24" layout.width="24" name="关闭按钮" rect="60,60,0,0" showT="true" />
+					</layoutEleUI>
+				</layoutEleUI>
+				<layoutEleUI expandT="false" layout.height=":1" layout.horizon="true" layout.width="fill" rect="247,360,100,100" showT="true">
+					<layoutEleUI expandT="false" id="1" layout.height="fill" layout.width="fill" name="主窗口_右侧内容区" padding="10,0,0,0" rect="678,180,100,100" showT="true">
+						<listViewUI enableCanvas="true" expandT="true" layout.height="fill" layout.width="fill" name="主窗口_视频列表" rect="367,217,100,100" showT="true" transparent="true" />
+						<listViewUI enableCanvas="true" expandT="false" layout.height="fill" layout.width="fill" name="主窗口_视频列表_搜索" rect="-384,317,100,100" show="false" showT="true" transparent="true" />
+					</layoutEleUI>
+				</layoutEleUI>
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="false" layout.alignH="center" layout.alignV="center" layout.height="32" layout.width="fill" name="主窗口_底部工具栏布局" rect="624,388,100,100" showT="true">
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="fill" layout.width=":1" padding="10,0,10,0" rect="278,16,100,100" showT="true">
+				<elementUI expandT="true" layout.height="20" layout.width="136" name="底部栏_我的电脑图标" rect="314,16,100,100" showT="true" />
+				<elementUI expandT="true" layout.height="20" layout.margin="10,0,0,0" layout.width="74" name="下载网速图标" rect="8,10,100,100" showT="true" />
+				<elementUI expandT="true" layout.height="20" layout.width="74" name="上传网速图标" rect="162,20,100,100" showT="true" />
+				<elementUI expandT="true" layout.height="20" layout.margin="40,0,0,0" layout.width=":1" name="状态栏提示组件" rect="352,13,100,100" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="false" layout.alignH="right" layout.alignV="center" layout.float="true" layout.height="fill" layout.horizon="true" layout.width="150" rect="218,21,100,100" showT="true">
+				<elementUI expandT="false" layout.height="20" layout.margin="0,0,5,0" layout.width="20" name="收藏总数" rect="39,14,43,20" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

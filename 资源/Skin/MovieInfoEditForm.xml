@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-窗口布局文件-->
+<head />
+<windowUI bkInfoM="{99:1.9.9;98:1();}" center="true" content="编辑影片" padding="10,0,10,0" rect="20,20,1048,679" shadowDepth="200" shadowRightAngle="true" shadowSize="10" showT="true" transparentAlpha="255" transparentFlag="shadow" windowStyle="30" windowType="modalWindow">
+	<layoutEleUI enableFocus="true" expandT="true" layout.height="fill" layout.spaceRow="10" layout.width="fill" rect="300,483,100,100" showT="true">
+		<layoutEleUI expandT="false" layout.alignV="center" layout.height="32" layout.horizon="true" layout.width="fill" rect="38,49,100,100" showT="true">
+			<elementUI expandT="true" id="1" layout.height="26" layout.width=":1" mouseThrough="true" rect="39,26,100,26" showT="true" />
+			<buttonUI buttonType="close" expandT="true" id="2" layout.height="20" layout.margin="10,0,0,0" layout.width="20" rect="655,11,36,25" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI expandT="true" id="555" layout.height=":1" layout.horizon="true" layout.width="fill" rect="512,154,100,100" showT="true">
+			<layoutEleUI expandT="true" id="20" layout.height="fill" layout.horizon="true" layout.space="20" layout.spaceRow="20" layout.width="fill" rect="512,154,100,100" show="true" showT="true">
+				<layoutEleUI expandT="false" id="299" layout.alignH="center" layout.height="fill" layout.spaceRow="10" layout.width="300" padding="30,30,30,0" rect="346,118,304,486" showT="true">
+					<elementUI expandT="true" id="300" layout.height="336" layout.width="240" rect="95,188,100,100" showT="true" />
+					<layoutEleUI expandT="false" layout.alignH="equidistant" layout.height=":1" layout.width="fill" rect="128,400,240,145" showT="true">
+						<buttonUI expandT="true" id="241" layout.height="30" layout.width="30" rect="67,23,60,25" showT="true" />
+						<buttonUI expandT="true" id="242" layout.height="30" layout.width="30" rect="15,15,60,25" showT="true" />
+						<buttonUI expandT="true" id="243" layout.height="30" layout.width="30" rect="-241,70,60,25" showT="true" />
+						<buttonUI expandT="true" id="244" layout.height="30" layout.width="30" rect="-101,70,60,25" showT="true" />
+						<buttonUI expandT="true" id="245" layout.height="30" layout.width="30" rect="-83,70,60,25" showT="true" />
+					</layoutEleUI>
+				</layoutEleUI>
+				<layoutEleUI expandT="true" layout.height="fill" layout.space="10" layout.spaceRow="10" layout.width=":1" rect="242,135,100,100" showT="true">
+					<layoutEleUI expandT="false" layout.height="28" layout.margin="0,0,10,0" layout.width="fill" rect="0,0,0,0" showT="true">
+						<buttonUI content="下载信息" expandT="true" id="9" layout.height="fill" layout.margin="16,0,0,0" layout.width="90" rect="71,78,60,25" showT="true" />
+						<buttonUI content="翻译为中文" expandT="true" id="10" layout.height="fill" layout.margin="16,0,0,0" layout.width="108" rect="91,98,60,25" showT="true" />
+						<buttonUI content="缓存元数据目录" expandT="true" id="11" layout.height="fill" layout.margin="16,0,0,0" layout.width="110" rect="261,14,60,25" showT="true" />
+						<buttonUI content="缓存海报目录" expandT="true" id="12" layout.height="fill" layout.margin="16,0,0,0" layout.width="108" rect="360,14,60,25" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="232,88,100,100" showT="true">
+						<shapeText content="路径" expandT="true" layout.height="fill" layout.width="60" rect="78,41,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI expandT="true" id="99" layout.height=":1" layout.width=":1" rect="325,33,673,28" showT="true" />
+						<buttonUI content="打开目录" expandT="true" id="900" layout.height="fill" layout.width="80" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="212,68,100,100" showT="true">
+						<shapeText content="标题" expandT="true" layout.height="fill" layout.width="60" rect="58,21,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI expandT="true" id="100" layout.height=":1" layout.width=":1" rect="305,13,100,20" showT="true" />
+						<buttonUI content="使用文件名" expandT="true" id="901" layout.height="fill" layout.width="80" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="232,88,100,100" showT="true">
+						<shapeText content="旧标题" expandT="true" layout.height="fill" layout.width="60" rect="78,41,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI contentTips="选填,主要是给非国产电影用的 例如：神奇蜘蛛侠，旧标题就是它的发行名 AmazingSpider-man" expandT="true" id="101" layout.height="fill" layout.width=":1" rect="325,33,100,20" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="true" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="252,108,100,100" showT="true">
+						<shapeText content="发行时间" expandT="true" layout.height="fill" layout.width="60" rect="98,61,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<dateTimeUI expandT="true" id="80" layout.height="fill" layout.width="102" rect="90,11,98,28" showT="true" />
+						<shapeText content="分级" expandT="true" layout.height="fill" layout.width="60" rect="118,81,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<comboBoxUI comboBox.dropHeight="-1" comboBox.dropHeightFixed="true" expandT="true" id="81" layout.height="fill" layout.width="100" rect="247,18,98,28" showT="true" transparent="true" />
+						<elementUI expandT="true" id="82" layout.height="16" layout.margin="-8,7,0,0" layout.width="16" rect="16,17,100,100" showT="true" />
+						<shapeText content="评分" expandT="true" layout.height="fill" layout.width="50" rect="138,101,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI expandT="true" id="84" layout.height="fill" layout.width="50" rect="385,93,100,20" showT="true" />
+						<elementUI expandT="true" id="83" layout.height="16" layout.margin="-8,7,0,0" layout.width="16" rect="36,37,100,100" showT="true" />
+						<shapeText content="时长" expandT="true" layout.height="fill" layout.width="50" rect="158,121,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI expandT="true" id="108" layout.height="fill" layout.width="50" rect="405,113,100,20" showT="true" />
+						<shapeText content="分" expandT="true" layout.height="fill" layout.margin="-10,0,0,0" layout.width="20" rect="178,141,100,20" showT="true" textAlign="DT_LEFT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="272,128,100,100" showT="true">
+						<shapeText content="国家/地区" expandT="true" layout.height="fill" layout.width="60" rect="118,81,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI contentTips="示例 中国/美国 多个标签用/隔开" expandT="true" id="103" layout.height=":1" layout.width=":1" rect="365,73,100,20" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="312,168,100,100" showT="true">
+						<shapeText content="类型" expandT="true" layout.height="fill" layout.width="60" rect="138,101,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI contentTips="示例 玄幻/动作  多个标签用/隔开" expandT="true" id="104" layout.height=":1" layout.width=":1" rect="385,93,100,20" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="332,188,100,100" showT="true">
+						<shapeText content="导演" expandT="true" layout.height="fill" layout.width="60" rect="158,121,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI contentTips="示例 张艺谋/徐克  多个标签用/隔开" expandT="true" id="105" layout.height=":1" layout.width=":1" rect="405,113,100,20" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height="28" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="352,208,100,100" showT="true">
+						<shapeText content="演员" expandT="true" layout.height="fill" layout.width="60" rect="178,141,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI contentTips="示例 胡歌/刘亦菲 多个标签用/隔开" expandT="true" id="106" layout.height=":1" layout.width=":1" rect="425,133,100,20" showT="true" />
+					</layoutEleUI>
+					<layoutEleUI expandT="false" layout.alignV="center" layout.height=":1" layout.margin="0,0,10,0" layout.space="10" layout.width="fill" rect="372,228,100,100" showT="true">
+						<shapeText content="简介" expandT="true" layout.height="28" layout.width="60" rect="198,161,100,20" showT="true" textAlign="DT_RIGHT,DT_VCENTER,DT_SINGLELINE" textColor="@ID_COLOR_2" />
+						<editUI expandT="true" id="107" layout.height="fill" layout.width=":1" multiLine="true" rect="445,153,100,20" scrollBarShowV="true" showT="true" />
+					</layoutEleUI>
+				</layoutEleUI>
+			</layoutEleUI>
+		</layoutEleUI>
+		<layoutEleUI expandT="false" layout.height="50" layout.width="fill" rect="270,332,100,100" showT="true">
+			<layoutEleUI expandT="false" layout.alignV="center" layout.height="fill" layout.width=":1" rect="379,19,100,100" showT="true">
+				<buttonUI buttonType="check" content="同时把海报和影视数据保存到本地" expandT="true" font="@Resource:\微软雅黑10常规" iconAlign="left" id="1002" layout.margin="0,4,0,0" rect="34,30,233,22" showT="true" style="check" textAlign="DT_LEFT,DT_VCENTER,DT_SINGLELINE" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.alignH="center" layout.alignV="top" layout.horizon="true" layout.space="20" layout.width="200" rect="360,19,100,100" showT="true">
+				<buttonUI content="确定保存" expandT="true" id="1000" layout.height="30" layout.margin="0,10,0,0" layout.width="80" name="确定保存" rect="0,0,0,0" showT="true" />
+				<buttonUI buttonType="close" content="取消" expandT="true" id="1001" layout.height="30" layout.margin="0,10,0,0" layout.width="80" rect="0,0,0,0" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+	</layoutEleUI>
+</windowUI>

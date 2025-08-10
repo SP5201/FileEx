@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--炫彩界面库-布局面板文件-->
+<head />
+<layoutPanel heightT="650" showT="true" widthT="900">
+	<layoutEleUI expandT="true" layout.height="fill" layout.horizon="false" layout.space="5" layout.width="fill" padding="20,0,10,0" rect="63,66,996,651" showT="true">
+		<shapeText content="网络设置" expandT="true" font="@Resource:\微软雅黑12常规" layout.width="auto" rect="45,30,100,20" showT="true" />
+		<layoutEleUI expandT="false" layout.height="30" layout.horizon="true" layout.space="20" layout.width="fill" rect="218,77,100,100" showT="true">
+			<buttonUI buttonType="radio" content="不使用代理" expandT="true" groupID="1" name="设置窗口_网络设置_不使用代理" rect="163,15,100,25" showT="true" style="radio" />
+			<buttonUI buttonType="radio" content="HTTP代理" expandT="true" groupID="1" name="设置窗口_网络设置_HTTP代理" rect="152,15,100,25" showT="true" style="radio" />
+			<buttonUI buttonType="radio" content="STOCKS5代理" expandT="true" groupID="1" name="设置窗口_网络设置_SOCKS5代理" rect="163,15,120,25" showT="true" style="radio" />
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.height="30" layout.horizon="true" layout.margin="0,5,0,0" layout.width="fill" rect="218,77,100,100" showT="true">
+			<shapeText content="代理地址" expandT="true" font="@Resource:\微软雅黑12常规" layout.width="auto" rect="45,30,100,20" showT="true" />
+		</layoutEleUI>
+		<layoutEleUI expandT="true" layout.height="70" layout.spaceRow="5" layout.width=":1" rect="412,133,100,100" showT="true">
+			<layoutEleUI expandT="true" layout.alignV="center" layout.height="30" layout.horizon="true" layout.space="10" layout.width="fill" rect="207,41,100,100" showT="true">
+				<shapeText content="地址" expandT="true" layout.height="30" layout.width="auto" rect="32,8,100,20" showT="true" />
+				<editUI expandT="true" layout.height="30" layout.width="240" name="设置窗口_网络设置_代理地址编辑框" rect="16,13,100,20" showT="true" />
+			</layoutEleUI>
+			<layoutEleUI expandT="true" layout.alignV="center" layout.height="30" layout.horizon="true" layout.space="10" layout.width="fill" rect="207,41,100,100" showT="true">
+				<shapeText content="端口" expandT="true" layout.height="30" layout.width="auto" rect="32,8,100,20" showT="true" />
+				<editUI expandT="true" layout.height="30" layout.width="240" name="设置窗口_网络设置_代理端口编辑框" rect="16,13,100,20" showT="true" />
+			</layoutEleUI>
+		</layoutEleUI>
+	</layoutEleUI>
+</layoutPanel>

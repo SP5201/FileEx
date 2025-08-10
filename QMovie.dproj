@@ -1,0 +1,351 @@
+﻿	<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+		<PropertyGroup>
+			<ProjectGuid>{74E4EE94-21EA-403B-AC39-85FF38C900C0}</ProjectGuid>
+			<MainSource>QMovie.dpr</MainSource>
+			<Base>True</Base>
+			<Config Condition="'$(Config)'==''">Release</Config>
+			<TargetedPlatforms>1</TargetedPlatforms>
+			<AppType>Console</AppType>
+			<FrameworkType>None</FrameworkType>
+			<ProjectVersion>16.1</ProjectVersion>
+			<Platform Condition="'$(Platform)'==''">Win32</Platform>
+			<DCC_DCCCompiler>DCC32</DCC_DCCCompiler>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Base' or '$(Base)'!=''">
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Base)'=='true') or '$(Base_Win32)'!=''">
+			<Base_Win32>true</Base_Win32>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Debug' or '$(Cfg_1)'!=''">
+			<Cfg_1>true</Cfg_1>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_1)'=='true') or '$(Cfg_1_Win32)'!=''">
+			<Cfg_1_Win32>true</Cfg_1_Win32>
+			<CfgParent>Cfg_1</CfgParent>
+			<Cfg_1>true</Cfg_1>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Config)'=='Release' or '$(Cfg_2)'!=''">
+			<Cfg_2>true</Cfg_2>
+			<CfgParent>Base</CfgParent>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="('$(Platform)'=='Win32' and '$(Cfg_2)'=='true') or '$(Cfg_2_Win32)'!=''">
+			<Cfg_2_Win32>true</Cfg_2_Win32>
+			<CfgParent>Cfg_2</CfgParent>
+			<Cfg_2>true</Cfg_2>
+			<Base>true</Base>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base)'!=''">
+			<DCC_DependencyCheckOutputName>QMovie.exe</DCC_DependencyCheckOutputName>
+			<SanitizedProjectName>QMovie</SanitizedProjectName>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=13.1.0.0;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=13.0.0.0;Comments=</VerInfo_Keys>
+			<Manifest_File>None</Manifest_File>
+			<VerInfo_Locale>2052</VerInfo_Locale>
+			<DCC_Namespace>Vcl;Vcl.Imaging;Vcl.Touch;Vcl.Samples;Vcl.Shell;System;Xml;Data;Datasnap;Web;Soap;$(DCC_Namespace)</DCC_Namespace>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Base_Win32)'!=''">
+			<DCC_DcuOutput>Dcu</DCC_DcuOutput>
+			<DCC_UnitSearchPath>库\NativeXml;库\SQLite3;库\XCGUI;库\官方库;库\SuperObject JSON;功能;样式;窗口;库\ffmpeg;$(DCC_UnitSearchPath)</DCC_UnitSearchPath>
+			<DCC_Namespace>Winapi;System.Win;Data.Win;Datasnap.Win;Web.Win;Soap.Win;Xml.Win;$(DCC_Namespace)</DCC_Namespace>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_1_Win32)'!=''">
+			<DCC_ExeOutput>Debug</DCC_ExeOutput>
+		</PropertyGroup>
+		<PropertyGroup Condition="'$(Cfg_2_Win32)'!=''">
+			<Icon_MainIcon>QMovie.ico</Icon_MainIcon>
+			<VerInfo_Build>2</VerInfo_Build>
+			<VerInfo_IncludeVerInfo>true</VerInfo_IncludeVerInfo>
+			<VerInfo_Release>1</VerInfo_Release>
+			<VerInfo_Keys>CompanyName=;FileDescription=;FileVersion=1.0.1.2;InternalName=;LegalCopyright=;LegalTrademarks=;OriginalFilename=;ProductName=;ProductVersion=13.0.0.0;Comments=</VerInfo_Keys>
+			<DCC_ExeOutput>Debug</DCC_ExeOutput>
+		</PropertyGroup>
+		<ItemGroup>
+			<DelphiCompile Include="$(MainSource)">
+				<MainSource>MainSource</MainSource>
+			</DelphiCompile>
+			<None Include="窗口\MovieInfoDownloadForm.pas"/>
+			<None Include="窗口\MovieInfoEditForm.pas"/>
+			<None Include="窗口\UI_MainForm.pas"/>
+			<None Include="窗口\UI_MovieInfoDownloadForm.pas"/>
+			<None Include="窗口\UI_MovieInfoEditForm.pas"/>
+			<None Include="窗口\MainForm.pas"/>
+			<None Include="功能\MovieImageUtils.pas"/>
+			<None Include="功能\FileHelpers.pas"/>
+			<None Include="功能\MovieInfoUnit.pas"/>
+			<None Include="功能\VideoDurationUnit.pas"/>
+			<None Include="功能\MovieManager.pas"/>
+			<None Include="功能\AudioPlayerUnit.pas"/>
+			<None Include="功能\ConfigUnit.pas"/>
+			<None Include="功能\SystemInfo.pas"/>
+			<None Include="功能\FormatHelpers.pas"/>
+			<None Include="功能\MovieSearch.pas"/>
+			<None Include="功能\ImageCore.pas"/>
+			<None Include="功能\WICImageHelper.pas"/>
+			<None Include="功能\CryptoUtils.pas"/>
+			<None Include="功能\WinHTTPDownload.pas"/>
+			<None Include="功能\NetworkSpeedMonitor.pas"/>
+			<None Include="功能\MovieJsonUnit.pas"/>
+			<None Include="样式\UI_Color.pas"/>
+			<None Include="样式\UI_ListView.pas"/>
+			<None Include="样式\UI_MovieListView.pas"/>
+			<None Include="样式\UI_Label.pas"/>
+			<None Include="样式\UI_Menu.pas"/>
+			<None Include="样式\UI_MoviePanel.pas"/>
+			<None Include="样式\UI_Element.pas"/>
+			<None Include="样式\UI_TagBox.pas"/>
+			<None Include="样式\UI_Button.pas"/>
+			<None Include="样式\UI_Messages.pas"/>
+			<None Include="样式\UI_Edit.pas"/>
+			<None Include="样式\UI_MarqueeLabel.pas"/>
+			<None Include="样式\UI_Tooltip.pas"/>
+			<None Include="样式\UI_Form.pas"/>
+			<None Include="样式\UI_DateTime.pas"/>
+			<None Include="样式\UI_Mask.pas"/>
+			<None Include="样式\UI_TipBox.pas"/>
+			<None Include="样式\UI_Animation.pas"/>
+			<None Include="样式\UI_List.pas"/>
+			<None Include="样式\UI_MonthCal.pas"/>
+			<None Include="样式\UI_ListBox.pas"/>
+			<None Include="样式\UI_ComboBox.pas"/>
+			<None Include="样式\UI_SearchEdit.pas"/>
+			<None Include="样式\UI_ScrollBar.pas"/>
+			<None Include="样式\Ui_Layout.pas"/>
+			<None Include="样式\UI_Window.pas"/>
+			<None Include="样式\UI_Tree.pas"/>
+			<None Include="样式\UI_Resource.pas"/>
+			<None Include="库\NativeXml\NativeXmlObjectStorage.pas"/>
+			<None Include="库\NativeXml\NativeXml.pas"/>
+			<None Include="库\NativeXml\sdStringTable.pas"/>
+			<None Include="库\NativeXml\sdDebug.pas"/>
+			<None Include="库\NativeXml\sdStreams.pas"/>
+			<None Include="库\NativeXml\NativeXmlOld.pas"/>
+			<None Include="库\NativeXml\NativeXmlWin32Compat.pas"/>
+			<None Include="库\NativeXml\sdSortedLists.pas"/>
+			<None Include="库\SQLite3\SQLite3Utils.pas"/>
+			<None Include="库\SQLite3\SQLite3Wrap.pas"/>
+			<None Include="库\SQLite3\SQLite3.pas"/>
+			<None Include="库\SuperObject JSON\superdate.pas"/>
+			<None Include="库\SuperObject JSON\superobject.pas"/>
+			<None Include="库\SuperObject JSON\supertimezone.pas"/>
+			<None Include="库\SuperObject JSON\supertypes.pas"/>
+			<None Include="库\SuperObject JSON\superxmlparser.pas"/>
+			<None Include="库\ffmpeg\libavutil_iamf.pas"/>
+			<None Include="库\ffmpeg\libavcodec.pas"/>
+			<None Include="库\ffmpeg\libavcodec_codec.pas"/>
+			<None Include="库\ffmpeg\libavcodec_codec_id.pas"/>
+			<None Include="库\ffmpeg\libavcodec_codec_par.pas"/>
+			<None Include="库\ffmpeg\libavcodec_packet.pas"/>
+			<None Include="库\ffmpeg\libavfilter.pas"/>
+			<None Include="库\ffmpeg\libavfilter_buffersink.pas"/>
+			<None Include="库\ffmpeg\libavfilter_buffersrc.pas"/>
+			<None Include="库\ffmpeg\libavfilter_formats.pas"/>
+			<None Include="库\ffmpeg\libavformat.pas"/>
+			<None Include="库\ffmpeg\libavformat_avio.pas"/>
+			<None Include="库\ffmpeg\libavformat_url.pas"/>
+			<None Include="库\ffmpeg\libavutil.pas"/>
+			<None Include="库\ffmpeg\libavutil_bprint.pas"/>
+			<None Include="库\ffmpeg\libavutil_channel_layout.pas"/>
+			<None Include="库\ffmpeg\libavutil_eval.pas"/>
+			<None Include="库\ffmpeg\libavutil_fifo.pas"/>
+			<None Include="库\ffmpeg\libavutil_file.pas"/>
+			<None Include="库\ffmpeg\libavutil_frame.pas"/>
+			<None Include="库\ffmpeg\libavutil_hwcontext.pas"/>
+			<None Include="库\ffmpeg\libavutil_imgutils.pas"/>
+			<None Include="库\ffmpeg\libavutil_opt.pas"/>
+			<None Include="库\ffmpeg\libavutil_pixdesc.pas"/>
+			<None Include="库\ffmpeg\libavutil_pixfmt.pas"/>
+			<None Include="库\ffmpeg\libavutil_rational.pas"/>
+			<None Include="库\ffmpeg\libavutil_timecode.pas"/>
+			<None Include="库\ffmpeg\libavutil_timestamp.pas"/>
+			<None Include="库\ffmpeg\libswresample.pas"/>
+			<None Include="库\ffmpeg\libavutil_tx.pas"/>
+			<None Include="库\ffmpeg\libavutil_dict.pas"/>
+			<None Include="库\ffmpeg\FFTypes.pas"/>
+			<None Include="库\ffmpeg\libavutil_stereo3d.pas"/>
+			<None Include="库\ffmpeg\libavcodec_codec_defs.pas"/>
+			<None Include="库\ffmpeg\libavutil_spherical.pas"/>
+			<None Include="库\ffmpeg\libavutil_replaygain.pas"/>
+			<None Include="库\ffmpeg\libavutil_mastering_display_metadata.pas"/>
+			<None Include="库\ffmpeg\libavutil_dovi_meta.pas"/>
+			<None Include="库\ffmpeg\libavutil_mathematics.pas"/>
+			<None Include="库\ffmpeg\libavutil_cpu.pas"/>
+			<None Include="库\ffmpeg\libavutil_avstring.pas"/>
+			<None Include="库\ffmpeg\libavutil_audio_fifo.pas"/>
+			<None Include="库\ffmpeg\libavcodec_codec_desc.pas"/>
+			<None Include="库\ffmpeg\libavcodec_bsf.pas"/>
+			<None Include="库\ffmpeg\libavutil_common.pas"/>
+			<None Include="库\ffmpeg\libavutil_log.pas"/>
+			<None Include="库\ffmpeg\libavutil_threadmessage.pas"/>
+			<None Include="库\ffmpeg\libavdevice.pas"/>
+			<None Include="库\ffmpeg\libswscale.pas"/>
+			<None Include="库\ffmpeg\libavutil_display.pas"/>
+			<None Include="库\ffmpeg\libavutil_error.pas"/>
+			<None Include="库\ffmpeg\libavutil_mem.pas"/>
+			<None Include="库\ffmpeg\libavutil_parseutils.pas"/>
+			<None Include="库\ffmpeg\libavutil_samplefmt.pas"/>
+			<None Include="库\ffmpeg\libavutil_buffer.pas"/>
+			<None Include="库\ffmpeg\libavutil_md5.pas"/>
+			<None Include="库\ffmpeg\FFUtils.pas"/>
+			<None Include="库\ffmpeg\libavutil_motion_vector.pas"/>
+			<None Include="库\ffmpeg\libavutil_time.pas"/>
+			<None Include="库\XCGUI\XD2DRenderer.pas"/>
+			<None Include="库\XCGUI\XCGUI.pas"/>
+			<None Include="库\XCGUI\XEventBase.pas"/>
+			<None Include="库\XCGUI\XElement.pas"/>
+			<None Include="库\XCGUI\XEdit.pas"/>
+			<None Include="库\XCGUI\XForm.pas"/>
+			<None Include="库\XCGUI\XWidget.pas"/>
+			<None Include="库\XCGUI\XLayout.pas"/>
+			<None Include="库\XCGUI\XList.pas"/>
+			<None Include="库\XCGUI\XListview.pas"/>
+			<None Include="库\XCGUI\XMenu.pas"/>
+			<None Include="库\XCGUI\XBUTTON.pas"/>
+			<None Include="库\XCGUI\XScrollView.pas"/>
+			<None Include="库\XCGUI\XCGUIPlus.pas"/>
+			<None Include="库\XCGUI\XListbox.pas"/>
+			<None Include="库\XCGUI\Xlstbox.pas"/>
+			<None Include="库\XCGUI\XComboBox.pas"/>
+			<None Include="库\XCGUI\XDateTime.pas"/>
+			<None Include="库\XCGUI\XMonthCal.pas"/>
+			<None Include="库\XCGUI\XLayoutFrame.pas"/>
+			<None Include="库\官方库\Sqlite2.pas"/>
+			<None Include="库\官方库\WinHTTP2.pas"/>
+			<RcItem Include="资源\Skin.zip">
+				<ContainerId>ResourceItem</ContainerId>
+				<ResourceType>RCData</ResourceType>
+				<ResourceId>SkinZip</ResourceId>
+			</RcItem>
+			<RcItem Include="QMovie.ico">
+				<ResourceType>ICON</ResourceType>
+				<ResourceId>Icon_1</ResourceId>
+			</RcItem>
+			<BuildConfiguration Include="Release">
+				<Key>Cfg_2</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Base">
+				<Key>Base</Key>
+			</BuildConfiguration>
+			<BuildConfiguration Include="Debug">
+				<Key>Cfg_1</Key>
+				<CfgParent>Base</CfgParent>
+			</BuildConfiguration>
+		</ItemGroup>
+		<Import Condition="Exists('$(BDS)\Bin\CodeGear.Delphi.Targets')" Project="$(BDS)\Bin\CodeGear.Delphi.Targets"/>
+		<ProjectExtensions>
+			<Borland.Personality>Delphi.Personality.12</Borland.Personality>
+			<Borland.ProjectType/>
+			<BorlandProject>
+				<Delphi.Personality>
+					<Source>
+						<Source Name="MainSource">QMovie.dpr</Source>
+					</Source>
+					<VersionInfo>
+						<VersionInfo Name="IncludeVerInfo">False</VersionInfo>
+						<VersionInfo Name="AutoIncBuild">False</VersionInfo>
+						<VersionInfo Name="MajorVer">1</VersionInfo>
+						<VersionInfo Name="MinorVer">0</VersionInfo>
+						<VersionInfo Name="Release">0</VersionInfo>
+						<VersionInfo Name="Build">0</VersionInfo>
+						<VersionInfo Name="Debug">False</VersionInfo>
+						<VersionInfo Name="PreRelease">False</VersionInfo>
+						<VersionInfo Name="Special">False</VersionInfo>
+						<VersionInfo Name="Private">False</VersionInfo>
+						<VersionInfo Name="DLL">False</VersionInfo>
+						<VersionInfo Name="Locale">2052</VersionInfo>
+						<VersionInfo Name="CodePage">936</VersionInfo>
+					</VersionInfo>
+					<VersionInfoKeys>
+						<VersionInfoKeys Name="CompanyName"/>
+						<VersionInfoKeys Name="FileDescription"/>
+						<VersionInfoKeys Name="FileVersion">13.1.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="InternalName"/>
+						<VersionInfoKeys Name="LegalCopyright"/>
+						<VersionInfoKeys Name="LegalTrademarks"/>
+						<VersionInfoKeys Name="OriginalFilename"/>
+						<VersionInfoKeys Name="ProductName"/>
+						<VersionInfoKeys Name="ProductVersion">13.0.0.0</VersionInfoKeys>
+						<VersionInfoKeys Name="Comments"/>
+					</VersionInfoKeys>
+					<Parameters>
+						<Parameters Name="UseLauncher">False</Parameters>
+						<Parameters Name="LoadAllSymbols">True</Parameters>
+						<Parameters Name="LoadUnspecifiedSymbols">False</Parameters>
+					</Parameters>
+					<Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dcloffice2k160.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
+						<Excluded_Packages Name="$(BDSBIN)\dclofficexp160.bpl">Microsoft Office XP Sample Automation Server Wrapper Components</Excluded_Packages>
+					</Excluded_Packages>
+				</Delphi.Personality>
+				<Platforms>
+					<Platform value="Win32">True</Platform>
+				</Platforms>
+				<Deployment>
+					<DeployFile Class="ProjectOutput" Configuration="Debug" LocalName="Debug\QMovie.exe">
+						<Platform Name="Win32"/>
+					</DeployFile>
+					<DeployFile Class="DebugSymbols" Configuration="Debug" LocalName="Debug\QYvideo.rsm">
+						<Platform Name="Win32">
+							<RemoteName>QYvideo.rsm</RemoteName>
+						</Platform>
+					</DeployFile>
+					<DeployFile Class="ProjectOutput" Configuration="Debug" LocalName="Debug\QYvideo.exe">
+						<Platform Name="Win32"/>
+					</DeployFile>
+					<DeployFile Class="DebugSymbols" Configuration="Debug" LocalName="Debug\QMovie.rsm">
+						<Platform Name="Win32">
+							<RemoteName>QMovie.rsm</RemoteName>
+						</Platform>
+					</DeployFile>
+					<DeployClass Name="DependencyPackage" Required="true">
+						<Platform Name="Win32">
+							<Operation>0</Operation>
+							<Extensions>.bpl</Extensions>
+						</Platform>
+					</DeployClass>
+					<DeployClass Name="DependencyModule">
+						<Platform Name="Win32">
+							<Operation>0</Operation>
+							<Extensions>.dll;.bpl</Extensions>
+						</Platform>
+					</DeployClass>
+					<DeployClass Name="ProjectOutput" Required="true">
+						<Platform Name="Win32">
+							<Operation>0</Operation>
+						</Platform>
+					</DeployClass>
+					<DeployClass Name="DebugSymbols">
+						<Platform Name="Win32">
+							<Operation>0</Operation>
+						</Platform>
+					</DeployClass>
+					<DeployClass Name="DependencyFramework">
+						<Platform Name="Win32">
+							<Operation>0</Operation>
+						</Platform>
+					</DeployClass>
+					<DeployClass Name="File">
+						<Platform Name="Win32">
+							<Operation>0</Operation>
+						</Platform>
+					</DeployClass>
+					<DeployClass Name="AdditionalDebugSymbols">
+						<Platform Name="Win32">
+							<RemoteDir>Contents\MacOS</RemoteDir>
+							<Operation>0</Operation>
+						</Platform>
+					</DeployClass>
+					<ProjectRoot Name="$(PROJECTNAME)" Platform="Win32"/>
+				</Deployment>
+			</BorlandProject>
+			<ProjectFileVersion>12</ProjectFileVersion>
+		</ProjectExtensions>
+		<Import Condition="Exists('$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj')" Project="$(APPDATA)\Embarcadero\$(BDSAPPDATABASEDIR)\$(PRODUCTVERSION)\UserTools.proj"/>
+		<Import Condition="Exists('$(MSBuildProjectName).deployproj')" Project="$(MSBuildProjectName).deployproj"/>
+	</Project>
